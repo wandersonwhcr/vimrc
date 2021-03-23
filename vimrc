@@ -7,3 +7,6 @@ vnoremap < <<CR>gv
 
 " mouse
 set mouse=a
+
+" number
+set number
