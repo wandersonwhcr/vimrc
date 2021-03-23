@@ -6,4 +6,5 @@ Vim Run Commands
 
 ```bash
 git clone git@github.com:wandersonwhcr/vimrc.git ~/.vim
+make --directory ~/.vim
 ```
