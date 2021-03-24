@@ -4,8 +4,12 @@ filetype plugin on
 " mouse
 set mouse=a
 
+" window
+set title
+
 " number
 set number
 
-" ruler
+" statusbar
+set laststatus=2
 set ruler
