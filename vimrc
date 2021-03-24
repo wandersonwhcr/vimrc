@@ -13,3 +13,6 @@ set number
 " statusbar
 set laststatus=2
 set ruler
+
+" octal as decimal
+set nrformats-=octal
