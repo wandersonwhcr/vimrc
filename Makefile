@@ -1,5 +1,5 @@
 .PHONY: all
-all: colors/wombat256mod.vim syntax/puppet.vim
+all: colors/wombat256mod.vim syntax/puppet.vim syntax/terraform.vim
 
 colors/wombat256mod.vim:
 	mkdir --parent $$(dirname "$@")
@@ -8,3 +8,7 @@ colors/wombat256mod.vim:
 syntax/puppet.vim:
 	mkdir --parent $$(dirname "$@")
 	wget --output-document "$@" 'https://raw.githubusercontent.com/rodjek/vim-puppet/master/syntax/puppet.vim'
+
+syntax/terraform.vim:
+	mkdir --parent $$(dirname "$@")
+	wget --output-document "$@" 'https://raw.githubusercontent.com/hashivim/vim-terraform/master/syntax/terraform.vim'
