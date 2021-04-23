@@ -16,6 +16,3 @@ set ruler
 
 " octal as decimal
 set nrformats-=octal
-
-" dash as keyword
-set iskeyword+=\-
