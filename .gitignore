@@ -1,4 +1,5 @@
 .netrwhist
 colors/wombat256mod.vim
+syntax/hcl.vim
 syntax/puppet.vim
 syntax/terraform.vim
