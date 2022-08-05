@@ -16,3 +16,6 @@ set ruler
 
 " octal as decimal
 set nrformats-=octal
+
+" disable autofix eol on eof
+set nofixendofline
