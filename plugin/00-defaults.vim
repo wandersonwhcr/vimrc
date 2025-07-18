@@ -19,3 +19,6 @@ set nrformats-=octal
 
 " disable autofix eol on eof
 set nofixendofline
+
+" force backup with copy instead rename
+set backupcopy=yes
